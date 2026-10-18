@@ -1,0 +1,19 @@
+{
+  "name": "zvid-blog-video-layer-styling",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "check": "node --check src/index.js && node --check src/helpers.js",
+    "test": "node --test tests/*.test.js",
+    "render": "node --env-file=.env src/index.js --render",
+    "resume": "node --env-file=.env src/index.js --resume"
+  },
+  "dependencies": {
+    "@zvid/sdk": "0.2.0"
+  }
+}

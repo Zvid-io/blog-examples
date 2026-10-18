@@ -1,0 +1,16 @@
+{
+  "id": "video-layer-styling",
+  "title": "Style video layers with rounded corners, rotation and filters",
+  "description": "Render a six-second comparison of the same clip with cumulative media styles, track the job and download the MP4.",
+  "articleUrl": "https://zvid.io/blog/tutorials/video-layer-rounded-corners-rotation-filters",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "free-api-validation",
+  "paidRenderCommand": "npm run render"
+}
