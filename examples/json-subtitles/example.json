@@ -1,0 +1,16 @@
+{
+  "id": "json-subtitles",
+  "title": "Add timed subtitles to a video with Node.js and JSON",
+  "description": "Run one small Node.js example to add three timed captions, track the render and download the finished MP4. The video, captions and code are included.",
+  "articleUrl": "https://zvid.io/blog/developer-tutorials/how-to-add-subtitles-to-a-video-with-json",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "free-api-validation",
+  "paidRenderCommand": "npm run render"
+}

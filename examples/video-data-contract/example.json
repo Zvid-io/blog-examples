@@ -1,0 +1,16 @@
+{
+  "id": "video-data-contract",
+  "title": "Keep product data separate from video design",
+  "description": "Change a product's price or a video's design without rewriting both. Follow one small example, see what can break, and run the checks yourself.",
+  "articleUrl": "https://zvid.io/blog/engineering/json-schema-for-video-generation",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "offline",
+  "paidRenderCommand": null
+}

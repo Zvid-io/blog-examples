@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "priceCents",
+    "currency",
+    "imageUrl"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]{1,40}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "pattern": "^[^<>\\{\\}]+$"
+    },
+    "priceCents": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 99900
+    },
+    "currency": {
+      "const": "USD"
+    },
+    "imageUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "maxLength": 2048
+    }
+  }
+}

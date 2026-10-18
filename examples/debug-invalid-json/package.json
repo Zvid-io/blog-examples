@@ -1,0 +1,15 @@
+{
+  "name": "zvid-blog-debug-invalid-json",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node debug.mjs request.json",
+    "check": "node --check debug.mjs && node --check src/debug.mjs && node debug.mjs request.json",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node debug.mjs request.json --api"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "debug-invalid-json",
+  "title": "Debug Invalid JSON in the Zvid Video API",
+  "description": "Find the failing stage, fix JSON syntax or request fields, and validate with Zvid for free before investigating an existing render job.",
+  "articleUrl": "https://zvid.io/blog/troubleshooting/debug-invalid-json-video-api",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "offline",
+  "paidRenderCommand": null
+}

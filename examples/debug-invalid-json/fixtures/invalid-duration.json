@@ -1,0 +1,24 @@
+{
+  "payload": {
+    "name": "debug-json",
+    "type": "video",
+    "resolution": "custom",
+    "width": 1280,
+    "height": 720,
+    "duration": 0,
+    "frameRate": 30,
+    "outputFormat": "mp4",
+    "backgroundColor": "#191321",
+    "visuals": [
+      {
+        "type": "TEXT",
+        "text": "JSON fixed",
+        "position": "center-center",
+        "style": {
+          "fontSize": "64px",
+          "color": "#FFFFFF"
+        }
+      }
+    ]
+  }
+}

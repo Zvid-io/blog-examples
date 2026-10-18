@@ -1,0 +1,51 @@
+name: Check examples
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  repository:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - run: npm test
+  examples:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
+        example: [json-subtitles, video-data-contract, debug-invalid-json]
+    defaults:
+      run:
+        working-directory: examples/${{ matrix.example }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: examples/${{ matrix.example }}/package-lock.json
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+      - run: npm test
+      - name: Package the committed example
+        working-directory: .
+        run: npm run package -- ${{ matrix.example }}
+      - name: Verify the standalone ZIP
+        env:
+          EXAMPLE: ${{ matrix.example }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/standalone"
+          unzip "$GITHUB_WORKSPACE/dist/$EXAMPLE-example.zip" -d "$RUNNER_TEMP/standalone"
+          cd "$RUNNER_TEMP/standalone/$EXAMPLE"
+          npm ci --ignore-scripts
+          npm run check
+          npm test

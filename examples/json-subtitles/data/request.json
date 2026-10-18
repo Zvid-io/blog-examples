@@ -1,0 +1,57 @@
+{
+  "payload": {
+    "name": "json-subtitles-example",
+    "duration": 8,
+    "visuals": [
+      {
+        "type": "VIDEO",
+        "src": "https://cdn.zvid.io/blog/json-subtitles/7d445c404424/source.mp4",
+        "width": 720,
+        "height": 1280,
+        "position": "center-center",
+        "resize": "cover",
+        "volume": 1
+      }
+    ],
+    "subtitle": {
+      "animation": "normal",
+      "font": {
+        "family": "Inter",
+        "size": 42,
+        "color": "#FFF9EF",
+        "bold": true
+      },
+      "background": {
+        "color": "#201A2E",
+        "opacity": 0.94,
+        "padding": 18,
+        "radius": 8
+      },
+      "position": "bottom-center",
+      "margin": {
+        "x": 48,
+        "y": 176
+      },
+      "captions": [
+        {
+          "start": 0.5,
+          "end": 2.25,
+          "text": "Take a slow breath."
+        },
+        {
+          "start": 2.66,
+          "end": 4.45,
+          "text": "Notice the light on the water."
+        },
+        {
+          "start": 5.14,
+          "end": 6.6,
+          "text": "Stay here for a moment."
+        }
+      ]
+    },
+    "width": 720,
+    "height": 1280,
+    "frameRate": 30
+  }
+}

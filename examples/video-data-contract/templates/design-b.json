@@ -1,0 +1,91 @@
+{
+  "name": "Product contract example redesign",
+  "type": "video",
+  "resolution": "custom",
+  "width": 720,
+  "height": 960,
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "duration": 3,
+  "backgroundColor": "#20192E",
+  "variables": {
+    "productName": "Daily Face Cream",
+    "priceText": "$24.00",
+    "productImage": "https://cdn.zvid.io/blog/csv-product-videos/41825cfba914/cream-jar.png"
+  },
+  "visuals": [
+    {
+      "type": "TEXT",
+      "text": "YOUR DAILY ROUTINE",
+      "x": 56,
+      "y": 55,
+      "width": 608,
+      "height": 40,
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3,
+      "style": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "color": "#DCCFEC",
+        "lineHeight": "1.1"
+      },
+      "fitToBox": true
+    },
+    {
+      "type": "TEXT",
+      "text": "{{productName}}",
+      "x": 56,
+      "y": 690,
+      "width": 608,
+      "height": 100,
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3,
+      "style": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "54px",
+        "fontWeight": 600,
+        "color": "#F5F0E8",
+        "lineHeight": "1.1"
+      },
+      "fitToBox": true
+    },
+    {
+      "type": "IMAGE",
+      "src": "{{productImage}}",
+      "x": 56,
+      "y": 150,
+      "width": 608,
+      "height": 480,
+      "resize": "contain",
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3
+    },
+    {
+      "type": "TEXT",
+      "text": "{{priceText}}",
+      "x": 56,
+      "y": 845,
+      "width": 350,
+      "height": 90,
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3,
+      "style": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "64px",
+        "fontWeight": 600,
+        "color": "#E9D55B",
+        "lineHeight": "1.1"
+      },
+      "fitToBox": true
+    }
+  ]
+}

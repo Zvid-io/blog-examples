@@ -1,0 +1,91 @@
+{
+  "name": "Product contract example",
+  "type": "video",
+  "resolution": "custom",
+  "width": 720,
+  "height": 960,
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "duration": 3,
+  "backgroundColor": "#F3EAD7",
+  "variables": {
+    "productName": "Daily Face Cream",
+    "productImage": "https://cdn.zvid.io/blog/csv-product-videos/41825cfba914/cream-jar.png",
+    "offerPrice": "$24.00"
+  },
+  "visuals": [
+    {
+      "type": "TEXT",
+      "text": "YOUR DAILY ROUTINE",
+      "x": 56,
+      "y": 55,
+      "width": 608,
+      "height": 40,
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3,
+      "style": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "22px",
+        "fontWeight": 500,
+        "color": "#70563D",
+        "lineHeight": "1.1"
+      },
+      "fitToBox": true
+    },
+    {
+      "type": "TEXT",
+      "text": "{{productName}}",
+      "x": 56,
+      "y": 130,
+      "width": 560,
+      "height": 165,
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3,
+      "style": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "72px",
+        "fontWeight": 600,
+        "color": "#36200D",
+        "lineHeight": "1.1"
+      },
+      "fitToBox": true
+    },
+    {
+      "type": "IMAGE",
+      "src": "{{productImage}}",
+      "x": 90,
+      "y": 330,
+      "width": 540,
+      "height": 480,
+      "resize": "contain",
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3
+    },
+    {
+      "type": "TEXT",
+      "text": "{{offerPrice}}",
+      "x": 56,
+      "y": 845,
+      "width": 350,
+      "height": 90,
+      "position": "custom",
+      "anchor": "top-left",
+      "enterBegin": 0,
+      "exitEnd": 3,
+      "style": {
+        "fontFamily": "Space Grotesk",
+        "fontSize": "64px",
+        "fontWeight": 600,
+        "color": "#36200D",
+        "lineHeight": "1.1"
+      },
+      "fitToBox": true
+    }
+  ]
+}
