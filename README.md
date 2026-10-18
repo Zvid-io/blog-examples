@@ -9,7 +9,7 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 | [Timed subtitles](examples/json-subtitles/) | Add prepared captions, track one render and download the result | Free API validation; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/json-subtitles/2d3d887d1fe8/json-subtitles-example.zip) |
 | [Product data and video design](examples/video-data-contract/) | Validate product data and map it into interchangeable designs | Offline checks and request generation | [ZIP](https://cdn.zvid.io/blog/video-data-contract/17fbeafa00ef/video-data-contract-example.zip) |
 | [Debug invalid JSON](examples/debug-invalid-json/) | Separate syntax, request-envelope and API validation failures | Offline request checks | [ZIP](https://cdn.zvid.io/blog/debug-invalid-json/784de4644f77/debug-invalid-json-example.zip) |
-| [Video layer styling](examples/video-layer-styling/) | Round, rotate and desaturate matching video cards | Free API validation; rendering is explicit | See the example README |
+| [Video layer styling](examples/video-layer-styling/) | Round, rotate and desaturate matching video cards | Free API validation; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/video-layer-styling/c59a48d87d82/video-layer-styling-example.zip) |
 
 ## Get started
 
