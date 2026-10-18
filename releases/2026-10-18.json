@@ -1,0 +1,33 @@
+{
+  "publishedAt": "2026-10-18T07:27:33.780Z",
+  "sourceCommit": "1916e5dfcb4b6fd7335ba429f9c782a009a0d90e",
+  "examples": [
+    {
+      "id": "json-subtitles",
+      "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/1916e5dfcb4b6fd7335ba429f9c782a009a0d90e/examples/json-subtitles",
+      "articleUrl": "https://zvid.io/blog/developer-tutorials/how-to-add-subtitles-to-a-video-with-json",
+      "zipUrl": "https://cdn.zvid.io/blog/json-subtitles/2d3d887d1fe8/json-subtitles-example.zip",
+      "filename": "json-subtitles-example.zip",
+      "bytes": 12566,
+      "sha256": "2d3d887d1fe8261cb98870cd2ba2ffeb546f5d921cc0e11461dc54251d7b8405"
+    },
+    {
+      "id": "video-data-contract",
+      "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/1916e5dfcb4b6fd7335ba429f9c782a009a0d90e/examples/video-data-contract",
+      "articleUrl": "https://zvid.io/blog/engineering/json-schema-for-video-generation",
+      "zipUrl": "https://cdn.zvid.io/blog/video-data-contract/17fbeafa00ef/video-data-contract-example.zip",
+      "filename": "video-data-contract-example.zip",
+      "bytes": 15511,
+      "sha256": "17fbeafa00eff361fff8036ed98107ebcd6f105c0fcc7f3c54391fb1e4760b05"
+    },
+    {
+      "id": "debug-invalid-json",
+      "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/1916e5dfcb4b6fd7335ba429f9c782a009a0d90e/examples/debug-invalid-json",
+      "articleUrl": "https://zvid.io/blog/troubleshooting/debug-invalid-json-video-api",
+      "zipUrl": "https://cdn.zvid.io/blog/debug-invalid-json/784de4644f77/debug-invalid-json-example.zip",
+      "filename": "debug-invalid-json-example.zip",
+      "bytes": 10773,
+      "sha256": "784de4644f779f0014d9655ee40b65f6a18820d182ff6ca11e8f8d0c79db53a8"
+    }
+  ]
+}

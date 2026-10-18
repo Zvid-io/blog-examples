@@ -4,11 +4,11 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 
 ## Examples
 
-| Example | What you learn | Default behavior |
-| --- | --- | --- |
-| [Timed subtitles](examples/json-subtitles/) | Add prepared captions, track one render and download the result | Free API validation; rendering is explicit |
-| [Product data and video design](examples/video-data-contract/) | Validate product data and map it into interchangeable designs | Offline checks and request generation |
-| [Debug invalid JSON](examples/debug-invalid-json/) | Separate syntax, request-envelope and API validation failures | Offline request checks |
+| Example | What you learn | Default behavior | Download |
+| --- | --- | --- | --- |
+| [Timed subtitles](examples/json-subtitles/) | Add prepared captions, track one render and download the result | Free API validation; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/json-subtitles/2d3d887d1fe8/json-subtitles-example.zip) |
+| [Product data and video design](examples/video-data-contract/) | Validate product data and map it into interchangeable designs | Offline checks and request generation | [ZIP](https://cdn.zvid.io/blog/video-data-contract/17fbeafa00ef/video-data-contract-example.zip) |
+| [Debug invalid JSON](examples/debug-invalid-json/) | Separate syntax, request-envelope and API validation failures | Offline request checks | [ZIP](https://cdn.zvid.io/blog/debug-invalid-json/784de4644f77/debug-invalid-json-example.zip) |
 
 ## Get started
 
