@@ -10,6 +10,7 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 | [Product data and video design](examples/video-data-contract/) | Validate product data and map it into interchangeable designs | Offline checks and request generation | [ZIP](https://cdn.zvid.io/blog/video-data-contract/17fbeafa00ef/video-data-contract-example.zip) |
 | [Debug invalid JSON](examples/debug-invalid-json/) | Separate syntax, request-envelope and API validation failures | Offline request checks | [ZIP](https://cdn.zvid.io/blog/debug-invalid-json/784de4644f77/debug-invalid-json-example.zip) |
 | [Video layer styling](examples/video-layer-styling/) | Round, rotate and desaturate matching video cards | API validation consumes no credits; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/video-layer-styling/3e38992928e6/video-layer-styling-example.zip) |
+| [Reliable webhooks](examples/video-rendering-webhooks/) | Verify signed events, persist an inbox and deduplicate business work | Offline HTTP demonstration; no rendering | See the article for the matching release ZIP |
 
 ## Get started
 

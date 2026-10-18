@@ -56,7 +56,7 @@ export function checkExample(directory) {
     if (file.endsWith('.json') && file !== 'fixtures/trailing-comma.json') JSON.parse(text);
     if (file === '.env.example') {
       for (const line of text.split(/\r?\n/).filter(line => line && !line.startsWith('#'))) {
-        assert.match(line, /^(?:ZVID_API_KEY=|MAX_RENDER_CREDITS=\d+)$/, `${key}: unsafe environment example`);
+        assert.match(line, /^(?:ZVID_API_KEY=|ZVID_WEBHOOK_SECRET=|MAX_RENDER_CREDITS=\d+)$/, `${key}: unsafe environment example`);
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "id": "video-rendering-webhooks",
+  "title": "Video Rendering Webhooks: A Reliable Zvid Receiver",
+  "description": "Verify signed render events, persist an inbox, process duplicates safely and reconcile tracked jobs.",
+  "articleUrl": "https://zvid.io/blog/engineering/video-rendering-webhooks",
+  "runtime": { "name": "Node.js", "minimumVersion": 22, "minimumPatchVersion": "22.13.0" },
+  "commands": { "check": "npm run check", "test": "npm test", "demo": "npm run demo" },
+  "defaultMode": "offline",
+  "paidRenderCommand": null
+}
