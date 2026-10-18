@@ -9,4 +9,6 @@
 
 Replaces the low-saturation water source with colorful macaws so saturation changes are easier to compare. Validation wording now describes credit consumption, and unnecessary account-limit and narration notes have been removed.
 
-Source and clean extracted ZIP passed dependency installation, syntax checks and four offline behavior tests. Public CI passed on Node.js 22 and 24. The extracted ZIP passed API validation with a six-credit estimate and no render submission. Stored and CDN ZIP bytes match the checksum. The original immutable package remains available.
+Source and clean extracted ZIP passed dependency installation, syntax checks and four offline behavior tests. Public CI passed on Node.js 22 and 24. The extracted ZIP passed API validation, then completed one six-credit render. The output is six seconds at 1280 × 720, 30 fps, with no audio stream. The documented resume command retrieved the same completed output without another render. Stored and CDN ZIP bytes match the checksum. The original immutable package remains available.
+
+[Watch the recorded comparison](https://cdn.zvid.io/blog/video-layer-styling/0ebcc3abd136/comparison.mp4). The red, blue and yellow macaws show a clear difference from the grayscale fourth card. A thin green fringe remains along the filtered, rotated card's left edge; inspect combined effects at delivery size. The published MP4 is the actual unretouched output.
