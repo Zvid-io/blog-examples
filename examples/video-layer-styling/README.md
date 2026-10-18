@@ -1,12 +1,12 @@
 # Style a video layer
 
-Render a six-second, 1280 × 720 comparison: the same water clip appears unstyled, with rounded corners, with rotation added, and with desaturation added. Changes accumulate from left to right. All four copies are muted and use the same source interval. This example adds no narration or subtitles.
+Render a six-second, 1280 × 720 comparison: the same macaw clip appears unstyled, with rounded corners, with rotation added, and with desaturation added. Changes accumulate from left to right. All four copies are muted and use the same source interval. This example adds no narration or subtitles.
 
 Related article: https://zvid.io/blog/tutorials/video-layer-rounded-corners-rotation-filters
 
 ## Requirements
 
-Use Node.js 22 or newer with npm, a Zvid account with API access and a key from https://app.zvid.io/api-keys. The sample needs four VIDEO elements and an account allowing a six-second 1280 × 720 output. The estimate is 6 render credits. Validation is free; always check its current estimate.
+Use Node.js 22 or newer with npm, a Zvid account with API access and a key from https://app.zvid.io/api-keys. The estimate is 6 render credits. Validation does not consume credits; always check its current estimate.
 
 ## Run
 
@@ -26,7 +26,7 @@ To spend the quoted credits and generate the comparison:
 npm run render
 ```
 
-The script validates again, records the submission attempt before the paid request, saves the returned job ID, waits for `state: completed`, then downloads `out/comparison.mp4`. An active job at 100% is still not complete. The expected video shows four moving water cards, rounded corners on cards 2 to 4, a slight tilt on cards 3 and 4, and grayscale water on card 4.
+The script validates again, records the submission attempt before the paid request, saves the returned job ID, waits for `state: completed`, then downloads `out/comparison.mp4`. An active job at 100% is still not complete. The expected video shows moving macaws in all four cards, rounded corners on cards 2 to 4, a slight tilt on cards 3 and 4, and grayscale feathers on card 4.
 
 If the command stops after saving a job ID:
 
@@ -43,11 +43,11 @@ This tracks the existing job without submitting another. If submission was inter
 - `src/helpers.js`: budget checks, safe completion handling and download helpers.
 - `tests/`: offline checks; these do not prove a hosted render succeeds.
 
-The [source clip](https://cdn.zvid.io/blog/json-subtitles/7d445c404424/source.mp4) is hosted separately, not bundled in the ZIP. It contains AI-generated narration, muted by this comparison's `volume: 0` settings. The code license does not relicense linked media.
+The [source clip](https://cdn.zvid.io/blog/video-layer-styling/cfa7bb321780/source-macaws.mp4) is hosted separately, not bundled in the ZIP. The footage comes from Zvid's stock library; every copy is muted with `volume: 0`. The code license does not relicense linked media.
 
 Each card is 224 × 398 pixels and uses `position: "custom"` with `anchor: "center-center"`. Cards 2 to 4 use `radius: {"tl":28,"tr":28,"bl":28,"br":28}`. Cards 3 and 4 add `angle: -6`. Card 4 adds `filter: {"saturate":-100}`. Label text is a separate layer and is not filtered.
 
-The recorded output shows a thin colored fringe along the filtered card's left edge. This sample demonstrates the controls but should not be treated as a guarantee of artifact-free combined effects. Inspect edges at your delivery size. Color differences are clearest in the warm highlights near the beginning; dark portions of the source already have little saturation.
+Compare the macaws' red, blue and yellow feathers with the grayscale fourth card. Inspect the rounded and rotated edges at your delivery size.
 
 To customize, replace all four source URLs with one direct HTTPS video URL, keep the four source intervals identical, and update labels to match your settings. `cover` may crop a different aspect ratio. Update duration, source trim and layer timing together. `radius` is an object; `angle` is numeric; brightness, contrast and saturation use zero as neutral. Use custom positioning for exact coordinates and margins. Review corners, framing, contrast and the first and last frames after changes.
 

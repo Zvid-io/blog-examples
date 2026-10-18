@@ -11,6 +11,6 @@
     "check": "npm run check",
     "test": "npm test"
   },
-  "defaultMode": "free-api-validation",
+  "defaultMode": "api-validation-no-credits",
   "paidRenderCommand": "npm run render"
 }

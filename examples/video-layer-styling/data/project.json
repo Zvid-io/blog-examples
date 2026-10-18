@@ -79,7 +79,7 @@
     {
       "type": "VIDEO",
       "id": "card-1",
-      "src": "https://cdn.zvid.io/blog/json-subtitles/7d445c404424/source.mp4",
+      "src": "https://cdn.zvid.io/blog/video-layer-styling/cfa7bb321780/source-macaws.mp4",
       "position": "custom",
       "x": 178,
       "y": 402,
@@ -143,7 +143,7 @@
     {
       "type": "VIDEO",
       "id": "card-2",
-      "src": "https://cdn.zvid.io/blog/json-subtitles/7d445c404424/source.mp4",
+      "src": "https://cdn.zvid.io/blog/video-layer-styling/cfa7bb321780/source-macaws.mp4",
       "position": "custom",
       "x": 486,
       "y": 402,
@@ -213,7 +213,7 @@
     {
       "type": "VIDEO",
       "id": "card-3",
-      "src": "https://cdn.zvid.io/blog/json-subtitles/7d445c404424/source.mp4",
+      "src": "https://cdn.zvid.io/blog/video-layer-styling/cfa7bb321780/source-macaws.mp4",
       "position": "custom",
       "x": 794,
       "y": 402,
@@ -284,7 +284,7 @@
     {
       "type": "VIDEO",
       "id": "card-4",
-      "src": "https://cdn.zvid.io/blog/json-subtitles/7d445c404424/source.mp4",
+      "src": "https://cdn.zvid.io/blog/video-layer-styling/cfa7bb321780/source-macaws.mp4",
       "position": "custom",
       "x": 1102,
       "y": 402,
