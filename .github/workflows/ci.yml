@@ -22,7 +22,7 @@ jobs:
       fail-fast: false
       matrix:
         node: [22, 24]
-        example: [json-subtitles, video-data-contract, debug-invalid-json, video-rendering-webhooks]
+        example: [json-subtitles, video-data-contract, debug-invalid-json, video-rendering-webhooks, generate-video-from-json]
     defaults:
       run:
         working-directory: examples/${{ matrix.example }}

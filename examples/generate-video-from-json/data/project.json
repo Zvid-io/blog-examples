@@ -1,0 +1,55 @@
+{
+  "name": "first-json-video",
+  "resolution": "hd",
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "backgroundColor": "#21132F",
+  "scenes": [
+    {
+      "id": "json-in",
+      "duration": 3,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "JSON in.",
+          "position": "center-center",
+          "width": 1080,
+          "height": 180,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "96px",
+            "fontWeight": 800,
+            "color": "#FFF8EC",
+            "textAlign": "center",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "video-out",
+      "duration": 3,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "Video out.",
+          "position": "center-center",
+          "width": 1080,
+          "height": 180,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "96px",
+            "fontWeight": 800,
+            "color": "#F5D66F",
+            "textAlign": "center",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
