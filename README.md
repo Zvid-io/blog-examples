@@ -6,7 +6,7 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 
 | Example | What you learn | Default behavior | Download |
 | --- | --- | --- | --- |
-| [Your first JSON video](examples/generate-video-from-json/) | Validate, render, track and download one six-second MP4 | API validation consumes no render credits; rendering is explicit | See the example tutorial |
+| [Your first JSON video](examples/generate-video-from-json/) | Validate, render, track and download one six-second MP4 | API validation consumes no render credits; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/generate-video-from-json/54fa50930515/generate-video-from-json-example.zip) |
 | [Timed subtitles](examples/json-subtitles/) | Add prepared captions, track one render and download the result | Free API validation; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/json-subtitles/2d3d887d1fe8/json-subtitles-example.zip) |
 | [Product data and video design](examples/video-data-contract/) | Validate product data and map it into interchangeable designs | Offline checks and request generation | [ZIP](https://cdn.zvid.io/blog/video-data-contract/17fbeafa00ef/video-data-contract-example.zip) |
 | [Debug invalid JSON](examples/debug-invalid-json/) | Separate syntax, request-envelope and API validation failures | Offline request checks | [ZIP](https://cdn.zvid.io/blog/debug-invalid-json/784de4644f77/debug-invalid-json-example.zip) |
