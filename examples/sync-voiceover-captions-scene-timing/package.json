@@ -1,0 +1,16 @@
+{
+  "name": "zvid-blog-sync-voiceover-captions-scene-timing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "build": "node src/build.js",
+    "start": "node --env-file=.env src/index.js",
+    "render": "node --env-file=.env src/index.js --render",
+    "resume": "node --env-file=.env src/index.js --resume",
+    "check": "node --check src/project.js && node --check src/index.js && node --check src/helpers.js && node src/build.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {"@zvid/sdk": "0.2.0"}
+}

@@ -1,0 +1,16 @@
+{
+  "id": "news-summary-video-template-json",
+  "title": "Build a news summary video from JSON",
+  "description": "Turn reviewed story records into one source-labelled silent vertical brief, then validate, render and download it.",
+  "articleUrl": "https://zvid.io/blog/tutorials/news-summary-video-template-json",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "api-validation-only",
+  "paidRenderCommand": "npm run render"
+}

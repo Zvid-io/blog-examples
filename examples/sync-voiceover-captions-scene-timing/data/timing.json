@@ -1,0 +1,192 @@
+{
+  "revision": "sync-demo-r1",
+  "reviewed": true,
+  "duration": 10,
+  "audioEnd": 9.24,
+  "audioUrl": "https://cdn.zvid.io/blog/sync-voiceover-captions-scene-timing/a615bc0979cf/narration.mp3",
+  "segments": [
+    {
+      "id": "narration",
+      "start": 0,
+      "end": 2.72,
+      "overlap": 0.4,
+      "heading": "Approve the narration",
+      "label": "ONE FINAL RECORDING",
+      "cue": {
+        "text": "APPROVED",
+        "start": 0.72,
+        "end": 2.64
+      },
+      "captions": [
+        {
+          "start": 0,
+          "end": 2.64,
+          "text": "First, approve the final narration.",
+          "words": [
+            {
+              "text": "First,",
+              "start": 0,
+              "end": 0.64
+            },
+            {
+              "text": "approve",
+              "start": 0.72,
+              "end": 1.12
+            },
+            {
+              "text": "the",
+              "start": 1.2,
+              "end": 1.28
+            },
+            {
+              "text": "final",
+              "start": 1.36,
+              "end": 1.6
+            },
+            {
+              "text": "narration.",
+              "start": 1.68,
+              "end": 2.64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "start": 2.72,
+      "end": 5.6,
+      "overlap": 0.4,
+      "heading": "Mark the spoken words",
+      "label": "ONE GLOBAL CLOCK",
+      "cue": {
+        "text": "WORDS + TIMES",
+        "start": 3.76,
+        "end": 5.52
+      },
+      "captions": [
+        {
+          "start": 2.72,
+          "end": 5.52,
+          "text": "Next, mark the words on one timeline.",
+          "words": [
+            {
+              "text": "Next,",
+              "start": 2.72,
+              "end": 3.36
+            },
+            {
+              "text": "mark",
+              "start": 3.44,
+              "end": 3.6
+            },
+            {
+              "text": "the",
+              "start": 3.68,
+              "end": 3.72
+            },
+            {
+              "text": "words",
+              "start": 3.76,
+              "end": 4.08
+            },
+            {
+              "text": "on",
+              "start": 4.16,
+              "end": 4.4
+            },
+            {
+              "text": "one",
+              "start": 4.48,
+              "end": 4.56
+            },
+            {
+              "text": "timeline.",
+              "start": 4.64,
+              "end": 5.52
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scenes",
+      "start": 5.6,
+      "end": 10,
+      "overlap": 0,
+      "heading": "Keep every change in sync",
+      "label": "CAPTIONS + SCENES",
+      "cue": {
+        "text": "SAME TIMING RECORD",
+        "start": 7.52,
+        "end": 9.2
+      },
+      "captions": [
+        {
+          "start": 5.6,
+          "end": 7.28,
+          "text": "Then, use those same times",
+          "words": [
+            {
+              "text": "Then,",
+              "start": 5.6,
+              "end": 6.08
+            },
+            {
+              "text": "use",
+              "start": 6.16,
+              "end": 6.32
+            },
+            {
+              "text": "those",
+              "start": 6.4,
+              "end": 6.56
+            },
+            {
+              "text": "same",
+              "start": 6.64,
+              "end": 6.88
+            },
+            {
+              "text": "times",
+              "start": 7.08,
+              "end": 7.28
+            }
+          ]
+        },
+        {
+          "start": 7.36,
+          "end": 9.2,
+          "text": "for captions and scene changes.",
+          "words": [
+            {
+              "text": "for",
+              "start": 7.36,
+              "end": 7.44
+            },
+            {
+              "text": "captions",
+              "start": 7.52,
+              "end": 8.08
+            },
+            {
+              "text": "and",
+              "start": 8.12,
+              "end": 8.16
+            },
+            {
+              "text": "scene",
+              "start": 8.32,
+              "end": 8.48
+            },
+            {
+              "text": "changes.",
+              "start": 8.56,
+              "end": 9.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

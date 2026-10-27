@@ -1,0 +1,10 @@
+{
+  "id": "sync-voiceover-captions-scene-timing",
+  "title": "Sync narration, captions and scene transitions",
+  "description": "Compile one reviewed timing record into global narration and word captions plus scene-local visual cues, then validate, render and download a ten-second MP4.",
+  "articleUrl": "https://zvid.io/blog/tutorials/sync-voiceover-captions-scene-timing",
+  "runtime": {"name": "Node.js", "minimumVersion": 22},
+  "commands": {"check": "npm run check", "test": "npm test"},
+  "defaultMode": "api-validation-no-render",
+  "paidRenderCommand": "npm run render"
+}

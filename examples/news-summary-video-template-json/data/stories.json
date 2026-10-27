@@ -1,0 +1,36 @@
+{
+  "showName": "HARBOR DESK BRIEF",
+  "editionDate": "2026-10-27",
+  "stories": [
+    {
+      "id": "library-hours",
+      "tag": "LIBRARY",
+      "title": "Library adds Saturday hours",
+      "summary": "The reading room opens from 10 AM to 2 PM.",
+      "sourceName": "Library notice",
+      "sourceUrl": "https://example.com/library-hours",
+      "publishedAt": "2026-10-27",
+      "approved": true
+    },
+    {
+      "id": "riverside-path",
+      "tag": "PARKS",
+      "title": "Riverside path reopens",
+      "summary": "Walkers can use the repaired eastern section.",
+      "sourceName": "Parks notice",
+      "sourceUrl": "https://example.com/riverside-path",
+      "publishedAt": "2026-10-27",
+      "approved": true
+    },
+    {
+      "id": "museum-evening",
+      "tag": "CULTURE",
+      "title": "Museum adds an evening session",
+      "summary": "The gallery stays open until 8 PM on Friday.",
+      "sourceName": "Museum notice",
+      "sourceUrl": "https://example.com/museum-evening",
+      "publishedAt": "2026-10-27",
+      "approved": true
+    }
+  ]
+}

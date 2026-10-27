@@ -6,6 +6,8 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 
 | Example | What you learn | Default behavior | Download |
 | --- | --- | --- | --- |
+| [News summary template](examples/news-summary-video-template-json/) | Turn reviewed fictional news records into repeated story cards with source labels | Offline build and tests; validation and paid rendering are separate commands | See the example README |
+| [Voiceover and scene timing](examples/sync-voiceover-captions-scene-timing/) | Derive scenes, captions and visual cues from one reviewed narration timeline | Offline build and tests; validation and paid rendering are separate commands | See the example README |
 | [Educational explainer template](examples/educational-explainer-json/) | Map reviewed lesson data into repeated teaching scenes and an optional worked example | API validation consumes no render credits; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/educational-explainer-json/eb2e15680d89/educational-explainer-json-example.zip) |
 | [Narrated faceless video](examples/faceless-videos-json/) | Combine prepared narration, timed captions and a controlled visual design | Offline build and tests; validation and rendering are separate commands | [ZIP](https://cdn.zvid.io/blog/faceless-videos-json/f4fdf4eba321/faceless-videos-json-example.zip) |
 | [One story, three social variants](examples/short-form-platform-variants/) | Keep shared copy while changing layout and endings across three vertical profiles | Offline build; API validation consumes no render credits; batch rendering is explicit | [ZIP](https://cdn.zvid.io/blog/short-form-platform-variants/f983970de526/short-form-platform-variants-example.zip) |

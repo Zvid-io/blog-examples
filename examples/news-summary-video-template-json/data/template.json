@@ -1,0 +1,365 @@
+{
+  "name": "news-summary-json",
+  "width": 720,
+  "height": 1280,
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "backgroundColor": "#102F3B",
+  "variables": {
+    "showName": "HARBOR DESK BRIEF",
+    "dateLine": "27 OCT 2026",
+    "storyCount": "3",
+    "stories": [
+      {
+        "number": "01",
+        "tag": "LIBRARY",
+        "title": "Library adds Saturday hours",
+        "summary": "The reading room opens from 10 AM to 2 PM.",
+        "sourceLine": "Library notice / 27 OCT 2026"
+      },
+      {
+        "number": "02",
+        "tag": "PARKS",
+        "title": "Riverside path reopens",
+        "summary": "Walkers can use the repaired eastern section.",
+        "sourceLine": "Parks notice / 27 OCT 2026"
+      },
+      {
+        "number": "03",
+        "tag": "CULTURE",
+        "title": "Museum adds an evening session",
+        "summary": "The gallery stays open until 8 PM on Friday.",
+        "sourceLine": "Museum notice / 27 OCT 2026"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "opening",
+      "duration": 4,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "HARBOR DESK / FICTIONAL DEMO",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 112,
+          "width": 604,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "20px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{dateLine}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 1118,
+          "width": 604,
+          "height": 32,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "20px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{showName}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 310,
+          "width": 604,
+          "height": 215,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "64px",
+            "fontWeight": 800,
+            "color": "#F7F3E9",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{storyCount}} local updates",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 620,
+          "width": 604,
+          "height": 70,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "40px",
+            "fontWeight": 600,
+            "color": "#F5A898",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "A fictional briefing with source and date labels.",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 755,
+          "width": 570,
+          "height": 120,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "30px",
+            "fontWeight": 600,
+            "color": "#F7F3E9",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "iterate": "stories",
+      "iterateAs": "story",
+      "duration": 7,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "HARBOR DESK / FICTIONAL DEMO",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 112,
+          "width": 604,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "20px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{dateLine}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 1118,
+          "width": 604,
+          "height": 32,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "20px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{story.number}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 230,
+          "width": 120,
+          "height": 110,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "58px",
+            "fontWeight": 800,
+            "color": "#102F3B",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center",
+            "backgroundColor": "#F5A898",
+            "borderRadius": "22px",
+            "justifyContent": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{story.tag}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 208,
+          "y": 245,
+          "width": 454,
+          "height": 70,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "26px",
+            "fontWeight": 600,
+            "color": "#F5A898",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{story.title}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 410,
+          "width": 604,
+          "height": 215,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "52px",
+            "fontWeight": 800,
+            "color": "#F7F3E9",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{story.summary}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 700,
+          "width": 604,
+          "height": 150,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "32px",
+            "fontWeight": 600,
+            "color": "#DDE9ED",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{story.sourceLine}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 976,
+          "width": 604,
+          "height": 72,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "22px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "duration": 3,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "HARBOR DESK / FICTIONAL DEMO",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 112,
+          "width": 604,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "20px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{dateLine}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 1118,
+          "width": 604,
+          "height": 32,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "20px",
+            "fontWeight": 600,
+            "color": "#AFC9D7",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Read the full notices.",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 365,
+          "width": 604,
+          "height": 200,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "60px",
+            "fontWeight": 800,
+            "color": "#F7F3E9",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Source links belong beside the posted video.",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 58,
+          "y": 700,
+          "width": 604,
+          "height": 150,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "34px",
+            "fontWeight": 600,
+            "color": "#F5A898",
+            "lineHeight": "1.12",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ]
+    }
+  ]
+}
