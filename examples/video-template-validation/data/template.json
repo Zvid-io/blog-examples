@@ -1,0 +1,199 @@
+{
+  "name": "release-status-preflight",
+  "resolution": "hd",
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "backgroundColor": "#21182D",
+  "variables": {
+    "title": "October release status",
+    "items": [
+      {
+        "label": "API",
+        "value": "Ready"
+      },
+      {
+        "label": "Editor",
+        "value": "Ready"
+      }
+    ],
+    "showCta": true,
+    "cta": "Review the final render"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "duration": 3,
+      "backgroundColor": "#21182D",
+      "transition": "fade",
+      "transitionDuration": 0.5,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "RELEASE CHECK",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 115,
+          "width": 1080,
+          "height": 50,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "24px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{title}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 230,
+          "width": 1080,
+          "height": 230,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "64px",
+            "fontWeight": 700,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "One design. Different data.",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 565,
+          "width": 1080,
+          "height": 50,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "24px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "iterate": "items",
+      "iterateAs": "item",
+      "duration": 3,
+      "backgroundColor": "#21182D",
+      "transition": "fade",
+      "transitionDuration": 0.5,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "{{item.label}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 190,
+          "width": 1080,
+          "height": 85,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "32px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{item.value}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 295,
+          "width": 1080,
+          "height": 180,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "80px",
+            "fontWeight": 700,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "condition": "{{showCta}}",
+      "duration": 3,
+      "backgroundColor": "#21182D",
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "BEFORE THE NEXT BATCH",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 150,
+          "width": 1080,
+          "height": 55,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "24px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{cta}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 100,
+          "y": 275,
+          "width": 1080,
+          "height": 180,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "56px",
+            "fontWeight": 700,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "textAlign": "center"
+          }
+        }
+      ]
+    }
+  ]
+}

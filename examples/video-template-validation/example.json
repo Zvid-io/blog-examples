@@ -1,0 +1,16 @@
+{
+  "id": "video-template-validation",
+  "title": "Validate a matrix of video template states",
+  "description": "Validate a release-status template file with six valid and six invalid input states, then explicitly render and download the representative video.",
+  "articleUrl": "https://zvid.io/blog/developer-tutorials/video-template-validation",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "api-validation-only",
+  "paidRenderCommand": "npm run render"
+}
