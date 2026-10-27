@@ -1,0 +1,37 @@
+{
+  "id": "car-listing-video",
+  "sourceCommit": "6303a9cc6b82d7515e131dd0da6b16fc35624021",
+  "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/6303a9cc6b82d7515e131dd0da6b16fc35624021/examples/car-listing-video",
+  "articleUrl": "https://zvid.io/blog/automotive-automation/automated-car-listing-videos",
+  "filename": "car-listing-video-example.zip",
+  "bytes": 14423,
+  "sha256": "3d9c4b540940d94924193dbc9e709e6c3b76f1799a35e1b9f90f7438920029c8",
+  "archiveRoot": "car-listing-video/",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "data/project.json",
+    "data/vehicle.json",
+    "example.json",
+    "package-lock.json",
+    "package.json",
+    "src/helpers.js",
+    "src/index.js",
+    "tests/helpers.test.js"
+  ],
+  "zipUrl": "https://cdn.zvid.io/blog/automated-car-listing-videos/3d9c4b540940/car-listing-video-example.zip",
+  "verifiedAt": "2026-10-27T06:54:40.428Z",
+  "checks": [
+    "npm ci; npm run check; npm test in example and clean extracted ZIP",
+    "Repository checks and credential scan",
+    "Hosted validation of both exact mapped requests: 13 credits, 12.3 seconds, four scenes, no warnings",
+    "Stored and CDN ZIP SHA-256, MIME and download filename verified"
+  ],
+  "limitations": [
+    "CLI API-key authentication and a fresh CLI submission were not exercised. Existing local key file was blank.",
+    "Live validation and completed-job reads used the connected Zvid account. Actual paid rendering used the dashboard saved-template route."
+  ],
+  "creditsConsumed": 45
+}
