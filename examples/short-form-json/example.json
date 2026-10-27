@@ -1,0 +1,12 @@
+{
+  "id": "short-form-json",
+  "title": "Short-form videos from JSON",
+  "articleUrl": "https://zvid.io/blog/developer-tutorials/generate-tiktok-reels-shorts-from-json",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "defaultCommand": "npm start",
+  "paidCommand": "npm run render",
+  "output": "out/short-form.mp4"
+}
