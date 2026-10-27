@@ -1,0 +1,41 @@
+{
+  "title": "A coffee break in three shots",
+  "segments": [
+    {
+      "id": "beans",
+      "start": 0,
+      "end": 4,
+      "visualIntent": "Coffee beans fall into a grinder hopper.",
+      "clipUrl": "https://cdn.zvid.io/blog/automated-b-roll/168b50cad380/beans.mp4",
+      "sourceBegin": 2,
+      "sourceEnd": 6,
+      "sourceDuration": 16,
+      "label": "Start with the beans",
+      "approved": true
+    },
+    {
+      "id": "espresso",
+      "start": 4,
+      "end": 8,
+      "visualIntent": "Espresso flows from a machine spout.",
+      "clipUrl": "https://cdn.zvid.io/blog/automated-b-roll/e57cfdcbc576/espresso.mp4",
+      "sourceBegin": 1,
+      "sourceEnd": 5,
+      "sourceDuration": 7,
+      "label": "Pull the espresso",
+      "approved": true
+    },
+    {
+      "id": "milk",
+      "start": 8,
+      "end": 12,
+      "visualIntent": "Milk is poured into a cup of coffee.",
+      "clipUrl": "https://cdn.zvid.io/blog/automated-b-roll/dfe9f37c49f0/milk.mp4",
+      "sourceBegin": 4,
+      "sourceEnd": 8,
+      "sourceDuration": 18,
+      "label": "Make it your moment",
+      "approved": true
+    }
+  ]
+}

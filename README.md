@@ -14,6 +14,7 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 | [Video layer styling](examples/video-layer-styling/) | Round, rotate and desaturate matching video cards | API validation consumes no credits; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/video-layer-styling/3e38992928e6/video-layer-styling-example.zip) |
 | [Reliable webhooks](examples/video-rendering-webhooks/) | Verify signed events, persist an inbox and deduplicate business work | Offline HTTP demonstration; no rendering | [ZIP](https://cdn.zvid.io/blog/video-rendering-webhooks/d10ec6aef17f/video-rendering-webhooks-example.zip) |
 | [Car listing video](examples/car-listing-video/) | Map a vehicle record into a repeated photo gallery with optional pricing | API validation consumes no credits; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/automated-car-listing-videos/3d9c4b540940/car-listing-video-example.zip) |
+| [Automated B-roll](examples/automated-b-roll/) | Map approved shots and source trims to a timed video | API validation consumes no render credits; rendering is explicit | See example README |
 
 ## Get started
 

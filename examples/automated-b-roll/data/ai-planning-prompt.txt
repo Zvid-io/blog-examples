@@ -1,0 +1,6 @@
+Plan supporting shots for a silent 12-second coffee sequence.
+The beats are: 0-4 seconds, coffee beans; 4-8 seconds, espresso extraction; 8-12 seconds, milk in a cup.
+Return a JSON array with id, start, end, visualIntent and searchQuery for each beat.
+Use concrete visible actions, not moods or claims about quality.
+Do not invent media URLs, source trim times, licenses, approval flags or camera footage.
+Keep timing unchanged. I will inspect candidate clips, choose source trims and approve the cue sheet separately.

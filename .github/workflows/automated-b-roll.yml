@@ -1,0 +1,31 @@
+name: Check automated B-roll example
+on:
+  push:
+    paths: ['examples/automated-b-roll/**', '.github/workflows/automated-b-roll.yml']
+  pull_request:
+    paths: ['examples/automated-b-roll/**', '.github/workflows/automated-b-roll.yml']
+permissions:
+  contents: read
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm ci --ignore-scripts && npm run check && npm test && npm run build
+        working-directory: examples/automated-b-roll
+      - run: npm ci --ignore-scripts && npm run check && npm test && npm run package -- automated-b-roll
+      - name: Test standalone download
+        run: |
+          mkdir -p "$RUNNER_TEMP/broll"
+          unzip dist/automated-b-roll-example.zip -d "$RUNNER_TEMP/broll"
+          cd "$RUNNER_TEMP/broll/automated-b-roll"
+          npm ci --ignore-scripts
+          npm run check
+          npm test
+          npm run build
