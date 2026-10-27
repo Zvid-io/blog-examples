@@ -1,0 +1,9 @@
+{
+  "id": "faceless-videos-json",
+  "title": "Make a narrated faceless video from JSON",
+  "description": "Use a prepared recording and one timing record for scene cuts and captions, then validate, render and download a meeting-notes lesson.",
+  "articleUrl": "https://zvid.io/blog/tutorials/generate-faceless-videos-with-json",
+  "runtime": { "name": "Node.js", "minimumVersion": 22 },
+  "commands": { "check": "npm run check", "test": "npm test" },
+  "defaultMode": "api-validation-no-render", "paidRenderCommand": "npm run render"
+}

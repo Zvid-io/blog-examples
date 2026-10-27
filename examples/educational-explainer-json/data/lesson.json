@@ -1,0 +1,24 @@
+{
+  "course": "WEB BASICS",
+  "title": "How HTTPS protects a request",
+  "goal": "Recognize three protections in one connection.",
+  "points": [
+    {
+      "heading": "Encrypt",
+      "body": "TLS encrypts data between the browser and server."
+    },
+    {
+      "heading": "Verify",
+      "body": "A valid certificate helps the browser authenticate the server."
+    },
+    {
+      "heading": "Detect changes",
+      "body": "Integrity checks detect data altered in transit."
+    }
+  ],
+  "showExample": true,
+  "exampleTitle": "Secure checkout",
+  "exampleBody": "Before sending payment data, the browser establishes a verified, encrypted connection.",
+  "takeaway": "Encryption + authentication + integrity.",
+  "limitation": "A secure connection does not prove that a shop is honest."
+}

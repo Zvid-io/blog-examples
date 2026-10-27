@@ -1,0 +1,393 @@
+{
+  "name": "educational-explainer-json",
+  "resolution": "hd",
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "backgroundColor": "#21182D",
+  "variables": {
+    "course": "WEB BASICS",
+    "title": "How HTTPS protects a request",
+    "goal": "Recognize three protections in one connection.",
+    "points": [
+      {
+        "number": "01",
+        "heading": "Encrypt",
+        "body": "TLS encrypts data between the browser and server."
+      },
+      {
+        "number": "02",
+        "heading": "Verify",
+        "body": "A valid certificate helps the browser authenticate the server."
+      },
+      {
+        "number": "03",
+        "heading": "Detect changes",
+        "body": "Integrity checks detect data altered in transit."
+      }
+    ],
+    "showExample": true,
+    "exampleTitle": "Secure checkout",
+    "exampleBody": "Before sending payment data, the browser establishes a verified, encrypted connection.",
+    "takeaway": "Encryption + authentication + integrity.",
+    "limitation": "A secure connection does not prove that a shop is honest."
+  },
+  "scenes": [
+    {
+      "id": "opening",
+      "duration": 4,
+      "backgroundColor": "#21182D",
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "{{course}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 54,
+          "width": 1120,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "22px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{title}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 170,
+          "width": 1080,
+          "height": 230,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "72px",
+            "fontWeight": 800,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{goal}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 478,
+          "width": 1040,
+          "height": 90,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "32px",
+            "fontWeight": 500,
+            "color": "#E8DDF3",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Zvid  /  {{course}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 640,
+          "width": 1120,
+          "height": 30,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": 500,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ]
+    },
+    {
+      "id": "point",
+      "duration": 5,
+      "backgroundColor": "#21182D",
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "{{course}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 54,
+          "width": 1120,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "22px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{point.number}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 160,
+          "width": 150,
+          "height": 150,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "70px",
+            "fontWeight": 800,
+            "color": "#21182D",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center",
+            "backgroundColor": "#F8D873",
+            "borderRadius": "30px",
+            "justifyContent": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{point.heading}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 278,
+          "y": 150,
+          "width": 900,
+          "height": 150,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "66px",
+            "fontWeight": 800,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{point.body}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 280,
+          "y": 330,
+          "width": 880,
+          "height": 210,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "42px",
+            "fontWeight": 500,
+            "color": "#E8DDF3",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Zvid  /  {{course}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 640,
+          "width": 1120,
+          "height": 30,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": 500,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ],
+      "iterate": "points",
+      "iterateAs": "point"
+    },
+    {
+      "id": "example",
+      "duration": 6,
+      "backgroundColor": "#21182D",
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "WORKED EXAMPLE",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 54,
+          "width": 1120,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "22px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{exampleTitle}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 155,
+          "width": 1120,
+          "height": 110,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "66px",
+            "fontWeight": 800,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{exampleBody}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 315,
+          "width": 1120,
+          "height": 215,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "43px",
+            "fontWeight": 500,
+            "color": "#E8DDF3",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Zvid  /  {{course}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 640,
+          "width": 1120,
+          "height": 30,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": 500,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ],
+      "condition": "{{showExample}}"
+    },
+    {
+      "id": "takeaway",
+      "duration": 5,
+      "backgroundColor": "#21182D",
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "REMEMBER",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 54,
+          "width": 1120,
+          "height": 40,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "22px",
+            "fontWeight": 700,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{takeaway}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 170,
+          "width": 1120,
+          "height": 210,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "62px",
+            "fontWeight": 800,
+            "color": "#F8D873",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{limitation}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 460,
+          "width": 1120,
+          "height": 110,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "32px",
+            "fontWeight": 500,
+            "color": "#FFF8ED",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Zvid  /  {{course}}",
+          "position": "custom",
+          "anchor": "top-left",
+          "x": 80,
+          "y": 640,
+          "width": 1120,
+          "height": 30,
+          "style": {
+            "fontFamily": "Inter",
+            "fontSize": "18px",
+            "fontWeight": 500,
+            "color": "#C4AFF2",
+            "lineHeight": "1.15",
+            "display": "flex",
+            "alignItems": "center"
+          }
+        }
+      ]
+    }
+  ]
+}

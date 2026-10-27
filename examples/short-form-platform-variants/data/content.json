@@ -1,0 +1,10 @@
+{
+  "contentId": "client-call-001",
+  "series": "AFTER THE CALL",
+  "secondsPerBeat": 4,
+  "beats": [
+    { "title": "Summarize the call", "detail": "Write down the decision while it is fresh." },
+    { "title": "Write the next step", "detail": "Turn the decision into one clear action." },
+    { "title": "Assign an owner", "detail": "Give the action a name and a due date." }
+  ]
+}

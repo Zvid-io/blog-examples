@@ -1,0 +1,10 @@
+Draft a short faceless-video script from these approved fictional meeting facts:
+Decision: Send the launch draft.
+Owner: Maya.
+Due date: Friday.
+
+Use an opening sentence, one sentence for each fact, and a short recap.
+Keep the whole script to 40 words or fewer and use plain language.
+Do not add facts, claim an outcome, invent media URLs or invent timestamps.
+Return narration text only. A person will review the wording, record or generate the voice,
+then mark the final recording's timings before updating the JSON.

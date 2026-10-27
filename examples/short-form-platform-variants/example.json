@@ -1,0 +1,9 @@
+{
+  "id": "short-form-platform-variants",
+  "title": "One story, three short-form video variants",
+  "articleUrl": "https://zvid.io/blog/tutorials/generate-tiktok-reels-shorts-from-json",
+  "runtime": { "name": "Node.js", "minimumVersion": 22 },
+  "defaultCommand": "npm start",
+  "paidCommand": "npm run render",
+  "output": "out/tiktok/video.mp4, out/reels/video.mp4, out/shorts/video.mp4"
+}

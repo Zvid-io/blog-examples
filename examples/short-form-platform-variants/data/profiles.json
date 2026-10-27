@@ -1,0 +1,5 @@
+[
+  { "id": "tiktok", "revision": "sample-1", "textX": 120, "textWidth": 740, "titleY": 690, "endCard": null },
+  { "id": "reels", "revision": "sample-1", "textX": 120, "textWidth": 780, "titleY": 650, "endCard": "Save this checklist" },
+  { "id": "shorts", "revision": "sample-1", "textX": 120, "textWidth": 760, "titleY": 610, "endCard": "Try it after your next call" }
+]

@@ -1,0 +1,28 @@
+{
+  "title": "Three useful fields",
+  "reviewed": true,
+  "duration": 16,
+  "narrationUrl": "https://cdn.zvid.io/blog/faceless-videos-json/7fcfaad914bb/narration.mp3",
+  "segments": [
+    {
+      "id": "decision", "label": "Decision", "value": "Send the launch draft", "start": 0, "end": 6.56,
+      "captions": [
+        { "start": 0, "end": 2.48, "text": "Better meeting notes need three things." },
+        { "start": 2.72, "end": 4.4, "text": "First, the decision:" },
+        { "start": 4.48, "end": 6.32, "text": "send the launch draft." }
+      ]
+    },
+    {
+      "id": "owner", "label": "Owner", "value": "Maya", "start": 6.56, "end": 9.4,
+      "captions": [ { "start": 6.56, "end": 9.2, "text": "Second, one owner: Maya." } ]
+    },
+    {
+      "id": "date", "label": "Due date", "value": "Friday", "start": 9.4, "end": 16,
+      "captions": [
+        { "start": 9.4, "end": 11.76, "text": "Third, a due date: Friday." },
+        { "start": 12, "end": 13.84, "text": "Keep those three fields together," },
+        { "start": 13.92, "end": 15.72, "text": "so the next step is clear." }
+      ]
+    }
+  ]
+}
