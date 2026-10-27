@@ -1,0 +1,10 @@
+{
+  "example": "ai-video-backend",
+  "sourceCommit": "2d9753d22bf7a979ef7be3bb7e96cf5bbc442de0",
+  "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/2d9753d22bf7a979ef7be3bb7e96cf5bbc442de0/examples/ai-video-backend",
+  "zipUrl": "https://cdn.zvid.io/blog/ai-video-rendering-backend/62d8175a61d0/ai-video-backend-example.zip",
+  "sha256": "62d8175a61d00adacc76a87e63ae9f7a17b3017d976de023ea796c7300cb830b",
+  "bytes": 10870,
+  "archiveRoot": "ai-video-backend/",
+  "verification": "Nine offline tests; exact-commit extracted file comparison; four hosted request validations; public Node.js 22/24 CI passed. No render submitted."
+}
