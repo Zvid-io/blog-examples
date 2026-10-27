@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-27",
+  "examples": [
+    {
+      "id": "news-summary-video-template-json",
+      "sourceCommit": "8e9268dd1a27e849d5c445b0aeb3120f191a2f9f",
+      "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/8e9268dd1a27e849d5c445b0aeb3120f191a2f9f/examples/news-summary-video-template-json",
+      "cdnUrl": "https://cdn.zvid.io/blog/news-summary-video-template-json/673d628de76b/news-summary-video-template-json-example.zip",
+      "bytes": 16671,
+      "sha256": "673d628de76b769a27ea693a9dfd9fb1dc2d0bc8658155cafd14f2896d5b5c2a",
+      "archiveRoot": "news-summary-video-template-json/",
+      "verifiedAt": "2026-10-27T18:09:55.667Z"
+    },
+    {
+      "id": "sync-voiceover-captions-scene-timing",
+      "sourceCommit": "8e9268dd1a27e849d5c445b0aeb3120f191a2f9f",
+      "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/8e9268dd1a27e849d5c445b0aeb3120f191a2f9f/examples/sync-voiceover-captions-scene-timing",
+      "cdnUrl": "https://cdn.zvid.io/blog/sync-voiceover-captions-scene-timing/d16225e4589c/sync-voiceover-captions-scene-timing-example.zip",
+      "bytes": 16719,
+      "sha256": "d16225e4589c8db4c5b754578f1ebf215921d1c880a7c190e0ceccb6cb769425",
+      "archiveRoot": "sync-voiceover-captions-scene-timing/",
+      "verifiedAt": "2026-10-27T18:10:00.771Z"
+    }
+  ]
+}
