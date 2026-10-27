@@ -1,0 +1,10 @@
+{
+  "example": "video-template-validation",
+  "sourceCommit": "197c30cced852241c0b0cdc8136941da5441d90b",
+  "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/197c30cced852241c0b0cdc8136941da5441d90b/examples/video-template-validation",
+  "zipUrl": "https://cdn.zvid.io/blog/video-template-validation/a063da3ca7bc/video-template-validation-example.zip",
+  "sha256": "a063da3ca7bc725ae8fa512b39c338907cb4f4d1633e7a5b96e0ac27f8139ffb",
+  "bytes": 16655,
+  "archiveRoot": "video-template-validation/",
+  "verification": "Ten offline tests; twelve live matrix cases; independently extracted ZIP installation, checks and tests; one completed 10.5-second render and resume download; public repository CI passed on Node.js 22 and 24. Stored and CDN ZIP bytes matched the source package."
+}
