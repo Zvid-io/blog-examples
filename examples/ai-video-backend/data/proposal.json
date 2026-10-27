@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "feature-explainer@1",
+  "title": "Call notes to next steps",
+  "features": [
+    { "heading": "Summarize", "body": "Capture decisions and open questions.", "sourceRef": "brief:p1" },
+    { "heading": "Draft", "body": "Prepare a follow-up for review.", "sourceRef": "brief:p2" },
+    { "heading": "Route", "body": "Assign the reviewed task to its owner.", "sourceRef": "brief:p3" }
+  ],
+  "showCta": true,
+  "cta": "Review the full workflow"
+}

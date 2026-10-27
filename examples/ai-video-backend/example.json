@@ -1,0 +1,10 @@
+{
+  "id": "ai-video-backend",
+  "title": "Validate AI content before video rendering",
+  "description": "Check a narrow content proposal, map it to a controlled Zvid design, and demonstrate where structural validation stops.",
+  "articleUrl": "https://zvid.io/blog/engineering/ai-video-rendering-backend",
+  "runtime": { "name": "Node.js", "minimumVersion": 22 },
+  "commands": { "check": "npm run check", "test": "npm test" },
+  "defaultMode": "offline",
+  "paidRenderCommand": null
+}

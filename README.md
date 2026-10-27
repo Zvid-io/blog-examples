@@ -6,6 +6,7 @@ Small, runnable code examples that accompany the [Zvid blog](https://zvid.io/blo
 
 | Example | What you learn | Default behavior | Download |
 | --- | --- | --- | --- |
+| [AI video backend contract](examples/ai-video-backend/) | Constrain proposed copy, map it to a controlled design, and separate structural validity from factual accuracy | Offline checks; optional API validation consumes no render credits | See the example README |
 | [Video template validation](examples/video-template-validation/) | Test variable states, expected scene structure and content before rendering one sample | API validation consumes no render credits; rendering is explicit | See the example README |
 | [Short-form videos from JSON](examples/short-form-json/) | Map three messages into a 12-second vertical video with editable timing and text placement | API validation consumes no render credits; rendering is explicit | See the example README |
 | [Your first JSON video](examples/generate-video-from-json/) | Validate, render, track and download one six-second MP4 | API validation consumes no render credits; rendering is explicit | [ZIP](https://cdn.zvid.io/blog/generate-video-from-json/54fa50930515/generate-video-from-json-example.zip) |
