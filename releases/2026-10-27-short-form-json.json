@@ -1,0 +1,28 @@
+{
+  "releasedAt": "2026-10-27T14:09:38.662Z",
+  "id": "short-form-json",
+  "sourceCommit": "21a375a2cdf1e2ace24e4ba48d6bbfebd104e64e",
+  "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/21a375a2cdf1e2ace24e4ba48d6bbfebd104e64e/examples/short-form-json",
+  "articleUrl": "https://zvid.io/blog/developer-tutorials/generate-tiktok-reels-shorts-from-json",
+  "filename": "short-form-json-example.zip",
+  "bytes": 12247,
+  "sha256": "81c51fe46f7573ca17f1c030af17eafefb36e3146f475594feaa618e9dd8c070",
+  "archiveRoot": "short-form-json/",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "data/content.json",
+    "example.json",
+    "package-lock.json",
+    "package.json",
+    "src/helpers.js",
+    "src/index.js",
+    "src/project.js",
+    "tests/helpers.test.js",
+    "tests/project.test.js"
+  ],
+  "cdnUrl": "https://cdn.zvid.io/blog/short-form-json/81c51fe46f75/short-form-json-example.zip",
+  "verification": "Independent ZIP install/check/9 tests and live credit-free validation passed. Stored and CDN SHA-256 match."
+}
