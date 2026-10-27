@@ -1,0 +1,16 @@
+{
+  "id": "car-listing-video",
+  "title": "Build a Car Listing Video with JSON and the Zvid API",
+  "description": "Map one vehicle record into a repeating photo gallery, validate both price states, track a paid render and download its MP4.",
+  "articleUrl": "https://zvid.io/blog/automotive-automation/automated-car-listing-videos",
+  "runtime": {
+    "name": "Node.js",
+    "minimumVersion": 22
+  },
+  "commands": {
+    "check": "npm run check",
+    "test": "npm test"
+  },
+  "defaultMode": "api-validation-no-render-credits",
+  "paidRenderCommand": "npm run render"
+}

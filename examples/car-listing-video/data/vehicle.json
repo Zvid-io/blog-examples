@@ -1,0 +1,18 @@
+{
+  "dealerName": "River Lane Motors",
+  "vehicleName": "2023 Aster Touring",
+  "stockNumber": "RL-042",
+  "mileage": 28640,
+  "price": 24900,
+  "showPrice": true,
+  "photos": [
+    {
+      "image": "https://cdn.zvid.io/blog/car-inventory-videos/db35dbe1809f/aster-front-cutout.png",
+      "label": "Front three-quarter"
+    },
+    {
+      "image": "https://cdn.zvid.io/blog/car-inventory-videos/e5aa3f65c3ae/aster-rear-cutout.png",
+      "label": "Rear three-quarter"
+    }
+  ]
+}

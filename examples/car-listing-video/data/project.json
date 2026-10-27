@@ -1,0 +1,430 @@
+{
+  "name": "Aster Listing Gallery",
+  "type": "video",
+  "resolution": "custom",
+  "width": 1280,
+  "height": 720,
+  "frameRate": 30,
+  "outputFormat": "mp4",
+  "backgroundColor": "#F3EAD7",
+  "variables": {
+    "dealerName": "River Lane Motors",
+    "vehicleName": "2023 Aster Touring",
+    "stockNumber": "RL-042",
+    "mileage": "28,640 miles",
+    "price": "$24,900",
+    "photoFront": "https://cdn.zvid.io/blog/car-inventory-videos/db35dbe1809f/aster-front-cutout.png",
+    "showPrice": true,
+    "photos": [
+      {
+        "image": "https://cdn.zvid.io/blog/car-inventory-videos/db35dbe1809f/aster-front-cutout.png",
+        "label": "Front three-quarter"
+      },
+      {
+        "image": "https://cdn.zvid.io/blog/car-inventory-videos/e5aa3f65c3ae/aster-rear-cutout.png",
+        "label": "Rear three-quarter"
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "introduce-car",
+      "duration": 3.3,
+      "backgroundColor": "#F3EAD7",
+      "transition": "fade",
+      "transitionDuration": 0.3,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "{{dealerName}}",
+          "x": 50,
+          "y": 29,
+          "width": 800,
+          "height": 32,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "22px",
+            "fontWeight": 400,
+            "color": "#362D25",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{vehicleName}}",
+          "x": 50,
+          "y": 76,
+          "width": 1180,
+          "height": 80,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "54px",
+            "fontWeight": 600,
+            "color": "#362D25",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "IMAGE",
+          "src": "{{photoFront}}",
+          "x": 50,
+          "y": 158,
+          "width": 1180,
+          "height": 500,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "resize": "contain",
+          "track": 1
+        },
+        {
+          "type": "TEXT",
+          "text": "FICTIONAL DEMONSTRATION · NOT A LIVE VEHICLE OFFER",
+          "x": 50,
+          "y": 673,
+          "width": 1180,
+          "height": 28,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "17px",
+            "fontWeight": 400,
+            "color": "#362D25",
+            "lineHeight": "1.1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "photo-gallery",
+      "duration": 3.3,
+      "backgroundColor": "#F3EAD7",
+      "transition": "fade",
+      "transitionDuration": 0.3,
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "{{dealerName}}",
+          "x": 50,
+          "y": 30,
+          "width": 1180,
+          "height": 34,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "22px",
+            "fontWeight": 400,
+            "color": "#362D25",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "IMAGE",
+          "src": "{{item.image}}",
+          "x": 15,
+          "y": 154,
+          "width": 860,
+          "height": 484,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "resize": "contain",
+          "track": 1
+        },
+        {
+          "type": "TEXT",
+          "text": "{{item.label}}",
+          "x": 900,
+          "y": 178,
+          "width": 330,
+          "height": 36,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "21px",
+            "fontWeight": 400,
+            "color": "#6A6258",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{mileage}}",
+          "x": 900,
+          "y": 240,
+          "width": 330,
+          "height": 148,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "54px",
+            "fontWeight": 500,
+            "color": "#362D25",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "Stock {{stockNumber}}",
+          "x": 900,
+          "y": 431,
+          "width": 330,
+          "height": 55,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "27px",
+            "fontWeight": 400,
+            "color": "#362D25",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "FICTIONAL DEMONSTRATION · NOT A LIVE VEHICLE OFFER",
+          "x": 50,
+          "y": 673,
+          "width": 1180,
+          "height": 28,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "17px",
+            "fontWeight": 400,
+            "color": "#6A6258",
+            "lineHeight": "1.1"
+          }
+        }
+      ],
+      "iterate": "photos",
+      "iterateAs": "item"
+    },
+    {
+      "id": "price-and-next-step",
+      "duration": 3.3,
+      "backgroundColor": "#1B162A",
+      "visuals": [
+        {
+          "type": "TEXT",
+          "text": "{{vehicleName}}",
+          "x": 50,
+          "y": 42,
+          "width": 1180,
+          "height": 65,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "38px",
+            "fontWeight": 500,
+            "color": "#F3EAD7",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "ADVERTISED PRICE",
+          "x": 50,
+          "y": 220,
+          "width": 490,
+          "height": 40,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "22px",
+            "fontWeight": 400,
+            "color": "#BDB4CF",
+            "lineHeight": "1.1"
+          },
+          "condition": "{{showPrice}}"
+        },
+        {
+          "type": "TEXT",
+          "text": "{{price}}",
+          "x": 50,
+          "y": 285,
+          "width": 440,
+          "height": 145,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "88px",
+            "fontWeight": 600,
+            "color": "#E5CE48",
+            "lineHeight": "1.1"
+          },
+          "condition": "{{showPrice}}"
+        },
+        {
+          "type": "TEXT",
+          "text": "Arrange a viewing",
+          "x": 50,
+          "y": 478,
+          "width": 490,
+          "height": 55,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "32px",
+            "fontWeight": 500,
+            "color": "#F3EAD7",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "TEXT",
+          "text": "{{dealerName}} · {{stockNumber}}",
+          "x": 50,
+          "y": 553,
+          "width": 490,
+          "height": 42,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "21px",
+            "fontWeight": 400,
+            "color": "#BDB4CF",
+            "lineHeight": "1.1"
+          }
+        },
+        {
+          "type": "IMAGE",
+          "src": "{{photoFront}}",
+          "x": 500,
+          "y": 170,
+          "width": 760,
+          "height": 428,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "resize": "contain",
+          "track": 1
+        },
+        {
+          "type": "TEXT",
+          "text": "FICTIONAL DEMONSTRATION · NOT A LIVE VEHICLE OFFER",
+          "x": 50,
+          "y": 673,
+          "width": 1180,
+          "height": 28,
+          "position": "custom",
+          "anchor": "top-left",
+          "enterBegin": 0,
+          "enterEnd": 0.4,
+          "exitEnd": 3.3,
+          "enterAnimation": "fade",
+          "fitToBox": true,
+          "track": 2,
+          "style": {
+            "fontFamily": "Space Grotesk",
+            "fontSize": "17px",
+            "fontWeight": 400,
+            "color": "#BDB4CF",
+            "lineHeight": "1.1"
+          }
+        }
+      ]
+    }
+  ]
+}
