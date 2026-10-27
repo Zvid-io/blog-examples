@@ -1,0 +1,17 @@
+{
+  "id": "automated-b-roll",
+  "sourceCommit": "bc8884723dbf0f6cef7c62607a176b7749598654",
+  "sourceUrl": "https://github.com/Zvid-io/blog-examples/tree/bc8884723dbf0f6cef7c62607a176b7749598654/examples/automated-b-roll",
+  "cdnUrl": "https://cdn.zvid.io/blog/automated-b-roll/a9bbd59ddee1/automated-b-roll-example.zip",
+  "sha256": "a9bbd59ddee1b5d414990f038c28a5fb2ef782b86fcf249a9cc8c224a8ac8723",
+  "bytes": 13728,
+  "archiveRoot": "automated-b-roll/",
+  "verified": {
+    "cleanExtract": true,
+    "tests": 6,
+    "githubCI": true,
+    "storedBytesMatch": true,
+    "cdnBytesMatch": true
+  },
+  "publishedAt": "2026-10-27"
+}
